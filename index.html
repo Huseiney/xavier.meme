@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xavier Meme Token</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -24,10 +24,14 @@
 
         <!-- Links Section -->
         <div class="links">
-            <a href="https://t.me/yourtelegramlink" target="_blank" class="btn telegram">Telegram</a>
-            <a href="https://twitter.com/yourtwitterlink" target="_blank" class="btn twitter">Twitter</a>
-            <a href="#" class="btn ca">Contract Address: XYZ1234567...</a>
-            <a href="https://raydium.io/swap/?inputCurrency=SOL&outputCurrency=YOUR_TOKEN" target="_blank" class="btn raydium">Buy on Raydium</a>
+            <a href="https://t.me/+PGFvuufQpNY4NzBk" target="_blank" class="btn telegram">Telegram</a>
+            <a href="https://x.com/xavier_memeSOL&target="_blank" class="btn twitter">Twitter</a>
+            <div class="btn ca">
+                Contract Address: 
+                <span id="contractAddress">Soon</span>
+                <button onclick="copyCA()">Copy</button>
+            </div>
+            <a href="#" target="_blank" class="btn raydium">Buy on Raydium</a>
         </div>
 
         <!-- Donate Section -->
@@ -36,7 +40,7 @@
             <p>Support our mission to make a positive impact by donating SOL to the wallet address below:</p>
             <div class="donate-address">
                 <span id="solAddress">35bqppHs2CtSipRhEtpC7oLwAiZquZAMWh9AdANvHhK7</span>
-                <button onclick="copyAddress()">Copy Address</button>
+                <button onclick="copySOL()">Copy Address</button>
             </div>
         </div>
     </div>
